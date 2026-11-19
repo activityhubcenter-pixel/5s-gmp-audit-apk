@@ -1,0 +1,19 @@
+{
+  "appId": "com.audit.five_s_gmp",
+  "appName": "5S & GMP Audit",
+  "webDir": "www",
+  "server": {
+    "url": "https://script.google.com/macros/s/AKfycbwUsuNPD-1eP0V8TzOIpbuN3kdi0f_xUrdR3wJ_5wfulyGh2mzHbXxiPWCBlLTG4M4wQQ/exec",
+    "allowNavigation": [
+      "script.google.com",
+      "*.script.google.com",
+      "*.googleusercontent.com",
+      "accounts.google.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}

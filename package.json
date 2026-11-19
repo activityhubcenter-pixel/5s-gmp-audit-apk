@@ -1,0 +1,17 @@
+{
+  "name": "audit-5s-gmp-android",
+  "version": "1.0.0",
+  "description": "5S & GMP Audit Android APK Wrapper via Capacitor",
+  "private": true,
+  "scripts": {
+    "build:android": "npx cap add android && npx capacitor-assets generate --android && node scripts/configure-android.js && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}
